@@ -3,7 +3,6 @@ package com.webtest.ljjdemo;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-import com.webtest.dataprovider.JDataProvider;
 import com.webtest.utils.ReadProperties;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -31,7 +30,7 @@ public class Level_setting extends BaseTest{
 		assertEquals(webtest.isDisplayed("class=navbar-brand"), true);
 	}
 	
-	@Test(description="等级描述",dataProvider="level_description",dataProviderClass= JDataProvider.class)
+	@Test(description="等级描述",dataProvider="level_description",dataProviderClass= Excel_data.class)
 	public void test_level_description(String level) {
 		webtest.typeAndClear("class=djmiaoshu", level);
 		webtest.click("xpath=//a[text()='等级设置']");
@@ -39,7 +38,7 @@ public class Level_setting extends BaseTest{
 		
 	}
 	
-	@Test(description="所需成长值",dataProvider="required_growth_value",dataProviderClass=JDataProvider.class)
+	@Test(description="所需成长值",dataProvider="required_growth_value",dataProviderClass=Excel_data.class)
 	public void test_required_growth_value(String value) {
 		webtest.typeAndClear("class=djzhi", value);
 		webtest.click("xpath=//a[text()='等级设置']");

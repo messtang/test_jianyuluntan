@@ -3,7 +3,6 @@ package com.webtest.ljjdemo;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-import com.webtest.dataprovider.JDataProvider;
 import com.webtest.utils.ReadProperties;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -31,14 +30,14 @@ public class Growth_setting extends BaseTest{
 		assertEquals(webtest.isDisplayed("class=navbar-brand"), true);
 	}
 	
-	@Test(description="增加成长值",dataProvider="growth_value",dataProviderClass= JDataProvider.class)
+	@Test(description="增加成长值",dataProvider="growth_value",dataProviderClass= Excel_data.class)
 	public void test_growth_value(String value) {
 		webtest.typeAndClear("class=czzhi", value);
 		webtest.click("xpath=//a[text()='成长设置']");
 		assertEquals(webtest.getValue("class=czzhi"), value);
 	}
 	
-	@Test(description="增加成长值",dataProvider="integral",dataProviderClass=JDataProvider.class)
+	@Test(description="增加成长值",dataProvider="integral",dataProviderClass=Excel_data.class)
 	public void test_integral(String value) {
 		webtest.typeAndClear("class=jfzhi", value); 
 		webtest.click("xpath=//a[text()='成长设置']");

@@ -3,7 +3,6 @@ package com.webtest.ljjdemo;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-import com.webtest.dataprovider.JDataProvider;
 import com.webtest.utils.ReadProperties;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -31,7 +30,7 @@ public class Sign_in_setting extends BaseTest{
 		assertEquals(webtest.isDisplayed("class=navbar-brand"), true);
 	}
 	
-	@Test(description="签到可得积分",dataProvider="Points_sign_in",dataProviderClass= JDataProvider.class)
+	@Test(description="签到可得积分",dataProvider="Points_sign_in",dataProviderClass= Excel_data.class)
 	public void test_Points_sign_in(String value) {
 		webtest.typeAndClear("name=checkin", value);
 		webtest.runJs("window.scrollTo(0,document.body.scrollHeight)");

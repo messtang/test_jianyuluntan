@@ -5,9 +5,7 @@ package com.webtest.ljjdemo;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-import com.webtest.dataprovider.JDataProvider;
 import com.webtest.utils.ReadProperties;
-import jdk.nashorn.internal.scripts.JD;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -38,7 +36,7 @@ public class Site_setting extends BaseTest{
 	}
 	
 	
-	@Test(description="论坛名称",dataProvider="forum_title",dataProviderClass= JDataProvider.class)
+	@Test(description="论坛名称",dataProvider="forum_title",dataProviderClass= Excel_data.class)
 	public void test_forum_title_enter(String title) {
 		webtest.typeAndClear("name=title", title);
 		webtest.runJs("window.scrollTo(0,document.body.scrollHeight)");
@@ -48,7 +46,7 @@ public class Site_setting extends BaseTest{
 		
 	}
 	
-	@Test(description="论坛副名称",dataProvider="forum_subtitle",dataProviderClass=JDataProvider.class)
+	@Test(description="论坛副名称",dataProvider="forum_subtitle",dataProviderClass=Excel_data.class)
 	public void test_forum_subtitle_enter(String subtitle) {
 		webtest.typeAndClear("name=subtitle", subtitle);
 		webtest.runJs("window.scrollTo(0,document.body.scrollHeight)");
