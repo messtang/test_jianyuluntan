@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf7f2951-18f8-4cef-a92a-baa3d4d62028" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/Growth_setting_data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Level_setting_data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Sign_in_setting_data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/Site_setting_data.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/webtest/ljjdemo/Growth_setting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/webtest/ljjdemo/Level_setting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/webtest/ljjdemo/Sign_in_setting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/webtest/ljjdemo/Site_setting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/webtest/demo/Friendship_link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/webtest/ljjdemo/Friendship_link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/webtest/demo/JDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/webtest/dataprovider/JDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/webtest/demo/Point_Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/webtest/demo/Point_Management.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/webtest/demo/Section_Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/webtest/demo/Section_Management.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/webtest/ljjdemo/Growth_setting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/webtest/ljjdemo/Growth_setting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +204,7 @@
       <workItem from="1605778628113" duration="3779000" />
       <workItem from="1605871050949" duration="1187000" />
       <workItem from="1606026021557" duration="12478000" />
-      <workItem from="1606265011442" duration="7052000" />
+      <workItem from="1606265011442" duration="7115000" />
     </task>
     <servers />
   </component>

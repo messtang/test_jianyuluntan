@@ -33,7 +33,7 @@ public class Growth_setting extends BaseTest{
 	
 	@Test(description="增加成长值",dataProvider="growth_value",dataProviderClass= JDataProvider.class)
 	public void test_growth_value(String value) {
-		webtest.typeAndClear("class=czzhi", value); 
+		webtest.typeAndClear("class=czzhi", value);
 		webtest.click("xpath=//a[text()='成长设置']");
 		assertEquals(webtest.getValue("class=czzhi"), value);
 	}
