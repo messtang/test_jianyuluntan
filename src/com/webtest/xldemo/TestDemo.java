@@ -1,4 +1,4 @@
-package xldemo;
+package com.webtest.xldemo;
 
 
 import static org.testng.Assert.assertTrue;
@@ -9,9 +9,10 @@ import org.testng.annotations.Test;
 
 import com.webtest.core.BaseTest;
 
+
 public class TestDemo extends BaseTest{
 
-	@Test(dataProviderClass=XDataProvider.class,dataProvider = "loginData")
+	@Test(dataProviderClass= XDataProvider.class,dataProvider = "loginData")
 	private void testLogin(String username,String password) throws InterruptedException, IOException {
 		webtest.open("http://jianyu:9999/index.php/denglu.html");
 		Thread.sleep(500);
