@@ -13,5 +13,12 @@
             <class name="com.webtest.ljjdemo.Friendship_link"/>
         </classes>
     </test>
+    <!-- 个人信息和签到测试用例（张帅帅） -->
+    <test name="zss">
+        <classes>
+            <class name="com.webtest.demo.ZSS_InformationTest"></class>
+            <class name="com.webtest.demo.ZSS_SignInTest"></class>
+        </classes>
+    </test>
 
 </suite>
