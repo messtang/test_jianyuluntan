@@ -45,10 +45,12 @@ public class ExcelDataProvider {
 			Row row = sheet.getRow(i);
 			String fields[] = new String[row.getLastCellNum()];
 			for (int j = 0; j < row.getLastCellNum(); j++) {
-				// ��ȡ��Ԫ������
-				Cell cell=row.getCell(j);
-				cell.setCellType(CellType.STRING);
-				fields[j] = cell.getStringCellValue();
+				try {
+					fields[j] = row.getCell(j).getStringCellValue();
+				} catch (Exception e) {
+					double d = row.getCell(j).getNumericCellValue();
+					fields[j] = String.valueOf((int)d);
+				}
 			}
 			records.add(fields);
 		}
