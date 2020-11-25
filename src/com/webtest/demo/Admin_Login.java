@@ -32,7 +32,7 @@ public class Admin_Login  extends BaseTest{
 		webtest.type("name=user", "admin");
 		webtest.type("name=pwd", "12345678");
         webtest.click("id=submit");
-		assertTrue(webtest.isTextPresent("剑鱼论坛后台"));
+		assertTrue(webtest.isTextPresent("剑鱼论坛前台"));
 	}
 //
 //	@Test
