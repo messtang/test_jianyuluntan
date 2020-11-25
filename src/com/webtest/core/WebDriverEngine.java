@@ -153,6 +153,14 @@ public class WebDriverEngine {
 		}
 	}
 
+	public void click(WebElement element) {
+		if (element != null) {
+			element.click();
+			this.pause(3000);
+		}
+	}
+
+
 	public void clickLonger(String locator) {
 
 		WebElement element = finder.findElement(locator);

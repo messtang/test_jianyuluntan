@@ -33,7 +33,7 @@ import com.webtest.utils.ReadProperties;
 public class BaseTest {
 
 	public  WebDriverEngine webtest;
-	private WebDriver driver;
+	protected WebDriver driver;
 	public String driverType;
 
 

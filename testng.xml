@@ -4,15 +4,17 @@
 <!--     <listeners>-->
 <!--         <listener class-name="com.webtest.core.WebTestListener"/>-->
 <!--     </listeners>-->
-    <test name="test1">
-        <classes>
-            <class name="com.webtest.ljjdemo.Site_setting"/>
-            <class name="com.webtest.ljjdemo.Sign_in_setting"/>
-            <class name="com.webtest.ljjdemo.Level_setting"/>
-            <class name="com.webtest.ljjdemo.Growth_setting"/>
-            <class name="com.webtest.ljjdemo.Friendship_link"/>
-        </classes>
-    </test>
+<!--    设置和其他测试用例（刘俊江）-->
+<!--    <test name="test1">-->
+<!--        <classes>-->
+<!--            <class name="com.webtest.ljjdemo.Site_setting"/>-->
+<!--            <class name="com.webtest.ljjdemo.Sign_in_setting"/>-->
+<!--            <class name="com.webtest.ljjdemo.Level_setting"/>-->
+<!--            <class name="com.webtest.ljjdemo.Growth_setting"/>-->
+<!--            <class name="com.webtest.ljjdemo.Friendship_link"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
 <!--    &lt;!&ndash; 个人信息和签到测试用例（张帅帅） &ndash;&gt;-->
 <!--    <test name="zss">-->
 <!--        <classes>-->
@@ -20,5 +22,12 @@
 <!--            <class name="com.webtest.demo.ZSS_SignInTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
+
+    <test name="lpy">
+        <classes>
+            <class name="com.webtest.lpydemo.SmokeTests"/>
+        </classes>
+
+    </test>
 
 </suite>
