@@ -27,7 +27,7 @@ public class Admin_Login  extends BaseTest{
 	@Test
 	public void testLogin1() {
 
-		webtest.open("/index.php/denglu.html");
+		webtest.open("http://47.110.133.90:81/index.php/denglu.html");
 
 		webtest.type("name=user", "admin");
 		webtest.type("name=pwd", "admin1234");
