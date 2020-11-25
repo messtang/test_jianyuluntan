@@ -39,6 +39,12 @@ public class JDataProvider {
 
     }
 
+    @DataProvider(name="friendship_link_add")
+    public Object[][] get_friendship_link_add_data() throws IOException{
+        return new ExcelDataProvider().
+                getTestDataByExcel("friendship_link_data.xlsx", "friendship_link_add");
+    }
+
 
 
 }

@@ -6,7 +6,7 @@
     <!-- </listeners> -->
     <test name="test1">
         <classes>
-            <class name="com.webtest.demo.Admin_Login"/>
+            <class name="com.webtest.demo.Friendship_link"/>
         </classes>
     </test>
 
