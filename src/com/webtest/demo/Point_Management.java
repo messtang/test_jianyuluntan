@@ -1,6 +1,7 @@
 package com.webtest.demo;
 
 import com.webtest.core.BaseTest;
+import com.webtest.dataprovider.JDataProvider;
 import com.webtest.utils.ReadProperties;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;

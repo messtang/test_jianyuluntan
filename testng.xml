@@ -6,7 +6,11 @@
     <!-- </listeners> -->
     <test name="test1">
         <classes>
-            <class name="com.webtest.demo.Friendship_link"/>
+            <class name="com.webtest.ljjdemo.Site_setting"></class>
+            <class name="com.webtest.ljjdemo.Sign_in_setting"></class>
+            <class name="com.webtest.ljjdemo.Level_setting"></class>
+            <class name="com.webtest.ljjdemo.Growth_setting"></class>
+            <class name="com.webtest.ljjdemo.Friendship_link"/>
         </classes>
     </test>
 
