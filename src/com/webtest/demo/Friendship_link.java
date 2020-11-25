@@ -11,7 +11,7 @@ import com.webtest.core.BaseTest;
 public class Friendship_link extends BaseTest{
 	@BeforeMethod(description="管理员登录")
 	public void login_to() {
-		webtest.open("http://127.0.0.1/index.php/denglu.html");
+		webtest.open("/index.php/denglu.html");
 		webtest.type("name=user", "admin");
 		webtest.type("name=pwd", "12345678");
 		webtest.click("id=submit");
