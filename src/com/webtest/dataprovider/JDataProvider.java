@@ -42,43 +42,43 @@ public class JDataProvider {
     @DataProvider(name="forum_title")
     public Object[][] get_forum_title_data() throws IOException{
         return new ExcelDataProvider().
-                getTestDataByExcel("conf/Site_setting_data.xlsx", "forum_title");
+                getTestDataByExcel("Site_setting_data.xlsx", "forum_title");
     }
 
     @DataProvider(name="forum_subtitle")
     public Object[][] get_forum_subtitle_data() throws IOException{
         return new ExcelDataProvider().
-                getTestDataByExcel("conf/Site_setting_data.xlsx", "forum_subtitle");
+                getTestDataByExcel("Site_setting_data.xlsx", "forum_subtitle");
     }
 
     @DataProvider(name="level_description")
     public Object[][] get_level_description_data() throws IOException{
         return new ExcelDataProvider().
-                getTestDataByExcel("conf/Level_setting_data.xlsx", "level_description");
+                getTestDataByExcel("Level_setting_data.xlsx", "level_description");
     }
 
     @DataProvider(name="required_growth_value")
     public Object[][] get_required_growth_value_data() throws IOException{
         return new ExcelDataProvider().
-                getTestDataByExcel("conf/Level_setting_data.xlsx", "required_growth_value");
+                getTestDataByExcel("Level_setting_data.xlsx", "required_growth_value");
     }
 
     @DataProvider(name="growth_value")
     public Object[][] get_growth_value_data() throws IOException{
         return new ExcelDataProvider().
-                getTestDataByExcel("conf/Growth_setting_data.xlsx", "growth_value");
+                getTestDataByExcel("Growth_setting_data.xlsx", "growth_value");
     }
 
     @DataProvider(name="integral")
     public Object[][] get_integral_data() throws IOException{
         return new ExcelDataProvider().
-                getTestDataByExcel("conf/Growth_setting_data.xlsx", "integral");
+                getTestDataByExcel("Growth_setting_data.xlsx", "integral");
     }
 
     @DataProvider(name="Points_sign_in")
     public Object[][] get_Points_sign_in_data() throws IOException{
         return new ExcelDataProvider().
-                getTestDataByExcel("conf/Sign_in_setting_data.xlsx", "Points_sign_in");
+                getTestDataByExcel("Sign_in_setting_data.xlsx", "Points_sign_in");
     }
 
     @DataProvider(name="friendship_link_add")
