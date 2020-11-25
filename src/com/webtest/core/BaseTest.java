@@ -107,11 +107,11 @@ public class BaseTest {
     }
 
 //	@BeforeSuite(description="设置监听器")
-	public void addListener(ITestContext context) {
-//		System.out.println("设置监听器");
-		TestRunner runnner = (TestRunner)context;
-		runnner.addListener(new WebTestListener());
-	}
+//	public void addListener(ITestContext context) {
+////		System.out.println("设置监听器");
+//		TestRunner runnner = (TestRunner)context;
+//		runnner.addListener(new WebTestListener());
+//	}
 	
 
 }
