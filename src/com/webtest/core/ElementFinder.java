@@ -83,4 +83,60 @@ public class ElementFinder {
 		}
 	}
 	
+	public WebElement findElementsByPrefix(String locator,int no)
+	{
+		String target=locator.trim();
+		if(target.startsWith("id="))
+		{
+			locator = locator.substring("id=".length());
+			List<WebElement> links = driver.findElements(By.id(locator));
+			return links.get(no);
+		}else if(target.startsWith("class="))
+		{
+			locator = locator.substring("class=".length());
+			List<WebElement> links = driver.findElements(By.className(locator));
+			return links.get(no);
+		}else if(target.startsWith("name="))
+		{
+			locator = locator.substring("name=".length());
+			List<WebElement> links = driver.findElements(By.name(locator));
+			return links.get(no);
+		}else if(target.startsWith("link="))
+		{
+			locator = locator.substring("link=".length());
+			List<WebElement> links = driver.findElements(By.linkText(locator));
+			return links.get(no);
+		}else if(target.startsWith("partLink="))
+		{
+			locator = locator.substring("partLink=".length());
+			List<WebElement> links = driver.findElements(By.partialLinkText(locator));
+			return links.get(no);
+		}
+		
+		
+		
+		
+		else if(target.startsWith("css="))
+		{
+			locator = locator.substring("css=".length());
+			List<WebElement> links = driver.findElements(By.cssSelector(locator));
+			return links.get(no);
+		}else if(target.startsWith("xpath="))
+		{
+			locator = locator.substring("xpath=".length());
+			List<WebElement> links = driver.findElements(By.xpath(locator));
+			return links.get(no);
+		}else if(target.startsWith("tag="))
+		{
+			locator = locator.substring("tag=".length());
+			List<WebElement> links = driver.findElements(By.tagName(locator));
+			return links.get(no);
+		}
+		else
+		{
+			Log.info(locator+"can't find element by prefix.");
+			return null;
+		}
+	}
+	
 }
