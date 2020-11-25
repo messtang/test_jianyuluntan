@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf7f2951-18f8-4cef-a92a-baa3d4d62028" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_9_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/webtest/core/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/webtest/core/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/webtest/demo/Admin_Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/webtest/demo/Admin_Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/com/webtest/utils/FreemarkerTemplateEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/com/webtest/utils/FreemarkerTemplateEngine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/conf/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/webtest/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/webtest/core/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/webtest/demo/Admin_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/webtest/demo/Admin_Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.webtest.demo.Admin_Login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.webtest.demo.Admin_Login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/s1/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/s1/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/s1/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/s1/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/s1/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/s1/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/s1/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/s1/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/s1/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/s1/test1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/s1/test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/s1/test1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/s1/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/s1/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +198,7 @@
       <workItem from="1605778628113" duration="3779000" />
       <workItem from="1605871050949" duration="1187000" />
       <workItem from="1606026021557" duration="12478000" />
-      <workItem from="1606265011442" duration="2022000" />
+      <workItem from="1606265011442" duration="2896000" />
     </task>
     <servers />
   </component>
