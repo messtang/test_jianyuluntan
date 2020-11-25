@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [s1]">
   <test thread-count="5" name="test1(failed)">
     <classes>
-      <class name="com.webtest.demo.Admin_Login">
+      <class name="com.webtest.lhdemo.Admin_Login">
         <methods>
           <include name="testLogin1"/>
           <include name="doAfterMethod"/>
           <include name="doBeforeClass"/>
           <include name="doAfterMethod_2"/>
         </methods>
-      </class> <!-- com.webtest.demo.Admin_Login -->
+      </class> <!-- com.webtest.lhdemo.Admin_Login -->
     </classes>
   </test> <!-- test1(failed) -->
 </suite> <!-- Failed suite [s1] -->

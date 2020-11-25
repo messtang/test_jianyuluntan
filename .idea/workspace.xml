@@ -2,8 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf7f2951-18f8-4cef-a92a-baa3d4d62028" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/webtest/dataprovider/ExcelDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/webtest/dataprovider/ExcelDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/webtest/demo/Admin_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/webtest/lhdemo/Admin_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/webtest/demo/AntTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/webtest/lhdemo/AntTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/webtest/demo/MaintainTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/webtest/lhdemo/MaintainTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/webtest/demo/Point_Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/webtest/lhdemo/Point_Management.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/webtest/demo/Section_Management.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/webtest/lhdemo/Section_Management.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/webtest/demo/ZSS_DataProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/webtest/demo/ZSS_InformationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/webtest/demo/ZSS_SignInTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/auto.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/auto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/auto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/auto.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.webtest.demo.Admin_Login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.webtest.demo.Admin_Login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.webtest.demo.AntTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.webtest.demo.AntTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/s1/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/s1/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/s1/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/s1/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/s1/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/s1/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/s1/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/s1/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/s1/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/s1/test1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/s1/test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/s1/test1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/s1/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/s1/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +90,8 @@
       <recent name="C:\Users\Administrator.DESKTOP-H2NQ5S1\Desktop\test_jianyuluntan\data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator.DESKTOP-H2NQ5S1\Desktop\test_jianyuluntan\src\com\webtest\ljjdemo" />
       <recent name="C:\Users\Administrator.DESKTOP-H2NQ5S1\Desktop\test_jianyuluntan\data" />
+      <recent name="C:\Users\Administrator.DESKTOP-H2NQ5S1\Desktop\test_jianyuluntan\src\com\webtest\ljjdemo" />
       <recent name="C:\Users\Administrator.DESKTOP-H2NQ5S1\Desktop\test_jianyuluntan\src\com\webtest\demo" />
       <recent name="D:\idea\auto\libs" />
       <recent name="D:\idea\auto\src" />
@@ -81,7 +107,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.webtest.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.webtest.demo.Admin_Login" />
+      <option name="MAIN_CLASS_NAME" value="com.webtest.lhdemo.Admin_Login" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -98,7 +124,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.webtest.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.webtest.demo.Admin_Login" />
+      <option name="MAIN_CLASS_NAME" value="com.webtest.lhdemo.Admin_Login" />
       <option name="METHOD_NAME" value="testLogin1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -116,7 +142,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.webtest.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.webtest.demo.Admin_Login" />
+      <option name="MAIN_CLASS_NAME" value="com.webtest.lhdemo.Admin_Login" />
       <option name="METHOD_NAME" value="testLogin2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -134,7 +160,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.webtest.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.webtest.demo.Admin_Login" />
+      <option name="MAIN_CLASS_NAME" value="com.webtest.lhdemo.Admin_Login" />
       <option name="METHOD_NAME" value="test_Login" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -204,7 +230,7 @@
       <workItem from="1605778628113" duration="3779000" />
       <workItem from="1605871050949" duration="1187000" />
       <workItem from="1606026021557" duration="12478000" />
-      <workItem from="1606265011442" duration="8565000" />
+      <workItem from="1606265011442" duration="9343000" />
     </task>
     <servers />
   </component>

@@ -1,4 +1,4 @@
-package com.webtest.demo;
+package com.webtest.lhdemo;
 
 import org.testng.annotations.Test;
 

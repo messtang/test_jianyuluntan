@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
   <test thread-count="5" name="auto(failed)">
     <classes>
-      <class name="com.webtest.demo.Admin_Login">
+      <class name="com.webtest.lhdemo.Admin_Login">
         <methods>
           <include name="doAfterMethod"/>
           <include name="testLogin" invocation-numbers="1 2 3"/>
           <include name="doBeforeClass"/>
         </methods>
-      </class> <!-- com.webtest.demo.Admin_Login -->
+      </class> <!-- com.webtest.lhdemo.Admin_Login -->
     </classes>
   </test> <!-- auto(failed) -->
 </suite> <!-- Failed suite [Default Suite] -->

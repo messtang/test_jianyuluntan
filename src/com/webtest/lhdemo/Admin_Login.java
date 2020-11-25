@@ -1,10 +1,7 @@
-package com.webtest.demo;
+package com.webtest.lhdemo;
 
 import static org.testng.Assert.assertTrue;
 
-import com.webtest.utils.Log;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import com.webtest.core.BaseTest;
 /*

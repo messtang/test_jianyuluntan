@@ -6,24 +6,24 @@
     <groups>
     </groups>
     <test name="test1" duration-ms="25200" started-at="2020-11-25T09:47:37 CST" finished-at="2020-11-25T09:48:02 CST">
-      <class name="com.webtest.demo.Admin_Login">
-        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="doBeforeClass" is-config="true" duration-ms="7002" started-at="2020-11-25T09:47:37 CST" finished-at="2020-11-25T09:47:44 CST">
+      <class name="com.webtest.lhdemo.Admin_Login">
+        <test-method status="PASS" signature="doBeforeClass()[pri:0, instance:com.webtest.lhdemo.Admin_Login@6d8a00e3]" name="doBeforeClass" is-config="true" duration-ms="7002" started-at="2020-11-25T09:47:37 CST" finished-at="2020-11-25T09:47:44 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doBeforeClass -->
-        <test-method status="PASS" signature="testLogin1()[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="testLogin1" duration-ms="17236" started-at="2020-11-25T09:47:44 CST" finished-at="2020-11-25T09:48:01 CST">
+        <test-method status="PASS" signature="testLogin1()[pri:0, instance:com.webtest.lhdemo.Admin_Login@6d8a00e3]" name="testLogin1" duration-ms="17236" started-at="2020-11-25T09:47:44 CST" finished-at="2020-11-25T09:48:01 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin1 -->
-        <test-method status="PASS" signature="doAfterMethod_2()[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="doAfterMethod_2" is-config="true" duration-ms="933" started-at="2020-11-25T09:48:01 CST" finished-at="2020-11-25T09:48:02 CST">
+        <test-method status="PASS" signature="doAfterMethod_2()[pri:0, instance:com.webtest.lhdemo.Admin_Login@6d8a00e3]" name="doAfterMethod_2" is-config="true" duration-ms="933" started-at="2020-11-25T09:48:01 CST" finished-at="2020-11-25T09:48:02 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterMethod_2 -->
-        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.demo.Admin_Login@6d8a00e3]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2020-11-25T09:48:02 CST" finished-at="2020-11-25T09:48:02 CST">
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.webtest.lhdemo.Admin_Login@6d8a00e3]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2020-11-25T09:48:02 CST" finished-at="2020-11-25T09:48:02 CST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doAfterMethod -->
-      </class> <!-- com.webtest.demo.Admin_Login -->
+      </class> <!-- com.webtest.lhdemo.Admin_Login -->
     </test> <!-- test1 -->
   </suite> <!-- s1 -->
 </testng-results>
