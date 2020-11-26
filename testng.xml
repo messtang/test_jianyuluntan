@@ -1,3 +1,35 @@
+Skip to content
+Search or jump to…
+
+Pulls
+Issues
+Marketplace
+Explore
+ 
+@liangchengyibei 
+messtang
+/
+test_jianyuluntan
+1
+0
+1
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+More
+test_jianyuluntan/testng.xml
+@namedzhang
+namedzhang Update testng.xml
+Latest commit e5f2125 37 minutes ago
+ History
+ 2 contributors
+@liujunjiang516@namedzhang
+33 lines (28 sloc)  1.17 KB
+  
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="s1" verbose="1">
@@ -23,18 +55,16 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <!-- <test name="lpy"> -->
-        <!-- <classes> -->
-            <!-- <class name="com.webtest.lpydemo.SmokeTest"/> -->
-        <!-- </classes> -->
+<!--    <test name="lpy">-->
+<!--        <classes>-->
+<!--           <class name="com.webtest.lpydemo.SmokeTest"/>-->
+<!--       </classes>-->
 
-    <!-- </test> -->
-	
-	<test name="lh">
-        <classes>
-            <class name="com.webtest.demo.Section_Management"/>
-			<class name="com.webtest.demo.Point_Management"/>
-        </classes>
-    </test>
+<!--    </test>-->
 
+<test name="xl">
+    <classes>
+          <class name="com.webtest.xldemo.TestDemo"/>
+    </classes>
+</test>
 </suite>
