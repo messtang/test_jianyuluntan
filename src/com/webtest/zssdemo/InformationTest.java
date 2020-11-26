@@ -1,4 +1,4 @@
-package com.webtest.demo;
+package com.webtest.zssdemo;
 
 import static org.testng.Assert.assertTrue;
 
