@@ -25,7 +25,7 @@
 
     <test name="lpy">
         <classes>
-            <class name="com.webtest.lpydemo.SmokeTests"/>
+            <class name="com.webtest.lpydemo.SmokeTest"/>
         </classes>
 
     </test>
