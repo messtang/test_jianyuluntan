@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="s1" verbose="1">
-<!--     <listeners>-->
-<!--         <listener class-name="com.webtest.core.WebTestListener"/>-->
-<!--     </listeners>-->
+    <listeners>
+        <listener class-name="com.webtest.core.WebTestListener"/>
+    </listeners>
 <!--    设置和其他测试用例（刘俊江）-->
 <!--    <test name="test1">-->
 <!--        <classes>-->
