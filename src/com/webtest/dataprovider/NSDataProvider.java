@@ -10,11 +10,11 @@ public class NSDataProvider {
 	
 	@DataProvider(name="zl_shop")
 	public  Object[][] getTxtData() throws IOException{
-		return new  TxtDataProvider().getTxtUser("data/user.txt");
+		return new  TxtDataProvider().getTxtUser("user.txt");
 	}
 	@DataProvider(name="movie")
 	public  Object[][] getMovieData() throws IOException{
-		return new  ExcelDataProvider().getTestDataByExcel("data/movie.xlxs","Sheet1");
+		return new  ExcelDataProvider().getTestDataByExcel("movie.xlxs","Sheet1");
 	}
 	@Test(dataProvider="txt")
 	public void getData(String a,String b) {
@@ -24,7 +24,7 @@ public class NSDataProvider {
 
 	@DataProvider(name="excel")
 	public Object[][] getExcelDada() throws IOException{
-		return new ExcelDataProvider().getTestDataByExcel("data/user.xlsx","Sheet1");
+		return new ExcelDataProvider().getTestDataByExcel("user.xlsx","Sheet1");
 	}
 	
 	@DataProvider(name="mysql")
