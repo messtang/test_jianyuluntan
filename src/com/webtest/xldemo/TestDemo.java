@@ -9,12 +9,11 @@ import org.testng.annotations.Test;
 
 import com.webtest.core.BaseTest;
 
-
 public class TestDemo extends BaseTest{
 
-	@Test(dataProviderClass= XDataProvider.class,dataProvider = "loginData")
+	@Test(dataProviderClass=XDataProvider.class,dataProvider = "loginData")
 	private void testLogin(String username,String password) throws InterruptedException, IOException {
-		webtest.open("http://jianyu:9999/index.php/denglu.html");
+		webtest.open("/index.php/denglu.html");
 		Thread.sleep(500);
 		webtest.type("name=user",username);
         webtest.type("name=pwd", password);
@@ -26,7 +25,7 @@ public class TestDemo extends BaseTest{
 	
 	@Test(dataProviderClass=XDataProvider.class,dataProvider ="registerData")
 	public void testRegister(String username,String password,String again,String mail) throws InterruptedException {
-		webtest.open("http://jianyu:9999/index.php/zhuce.html");
+		webtest.open("/index.php/zhuce.html");
 		Thread.sleep(500);
 		webtest.type("name=user",username);
         webtest.type("name=pwd", password);
@@ -40,7 +39,7 @@ public class TestDemo extends BaseTest{
 	}
 	@Test
 	public void testQiandao() throws InterruptedException {
-		webtest.open("http://jianyu:9999/index.php/index.html");
+		webtest.open("/index.php/index.html");
 		Thread.sleep(500);
 		webtest.click("id=qiandao");
 		assertTrue(webtest.isTextPresent("已签到"));
@@ -48,7 +47,7 @@ public class TestDemo extends BaseTest{
 	
 	@Test
 	public void testFatie() throws InterruptedException {
-		webtest.open("http://jianyu:9999/index.php/index.html");
+		webtest.open("/index.php/index.html");
 		Thread.sleep(500);
 		webtest.click("xpath=/html/body/div[1]/div/div[2]/div[1]/div/div[2]/a");
 		assertTrue(webtest.isTextPresent("剑鱼论坛后台"));
@@ -56,7 +55,7 @@ public class TestDemo extends BaseTest{
 	
 	@Test
 	public void testFind() throws InterruptedException {
-		webtest.open("http://jianyu:9999/index.php/index.html");
+		webtest.open("/index.php/index.html");
 		Thread.sleep(500);
 		webtest.type("name=find", "");
 		webtest.click("xpath=/html/body/div[1]/div/div[2]/div[3]/form/div/div/button");
