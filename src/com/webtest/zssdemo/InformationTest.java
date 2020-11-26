@@ -19,7 +19,7 @@ public class InformationTest extends BaseTest {
 
 	@BeforeClass
 	public void Login() throws IOException {
-		webtest.open("/denglu.html");
+		webtest.open("/index.php/denglu.html");
 		webtest.type("name=user", ReadProperties.getPropertyValue("username"));
 		webtest.type("name=pwd", ReadProperties.getPropertyValue("password"));
 		webtest.click("id=submit");
