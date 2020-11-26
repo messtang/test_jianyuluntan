@@ -15,13 +15,13 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-<!--    &lt;!&ndash; 个人信息和签到测试用例（张帅帅） &ndash;&gt;-->
-<!--    <test name="zss">-->
-<!--        <classes>-->
-<!--            <class name="com.webtest.zssdemo.InformationTest"></class>-->
-<!--            <class name="com.webtest.zssdemo.SignInTest"></class>-->
-<!--        </classes>-->
-<!--    </test>-->
+<!--    个人信息和签到测试用例（张帅帅） -->
+   <test name="zss">
+       <classes>
+           <class name="com.webtest.zssdemo.InformationTest"></class>
+           <class name="com.webtest.zssdemo.SignInTest"></class>
+       </classes>
+   </test>
 
 <!--    <test name="lpy">-->
 <!--        <classes>-->
@@ -37,10 +37,10 @@
     <!-- </test> -->
 	
 	
-	    <test name="lh">
+<!-- 	    <test name="lh">
         <classes>
             <class name="com.webtest.lhdemo.Section_Management"/>
             <class name="com.webtest.lhdemo.Point_Management"/>
-        </classes>
+        </classes> -->
     </test>
 </suite>
