@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="s1" verbose="1">
-    <listeners>
+<!--     <listeners>
         <listener class-name="com.webtest.core.WebTestListener"/>
-    </listeners>
+    </listeners> -->
 <!--    设置和其他测试用例（刘俊江）-->
 <!--    <test name="test1">-->
 <!--        <classes>-->
@@ -41,6 +41,6 @@
         <classes>
             <class name="com.webtest.lhdemo.Section_Management"/>
             <class name="com.webtest.lhdemo.Point_Management"/>
-        </classes> -->
-    </test>
+        </classes>
+    </test> -->
 </suite>
