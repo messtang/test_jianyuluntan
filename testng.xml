@@ -30,9 +30,17 @@
 
 <!--    </test>-->
 
-    <test name="xl">
+    <!-- <test name="xl"> -->
+        <!-- <classes> -->
+              <!-- <class name="com.webtest.xldemo.TestDemo"/> -->
+        <!-- </classes> -->
+    <!-- </test> -->
+	
+	
+	    <test name="lh">
         <classes>
-              <class name="com.webtest.xldemo.TestDemo"/>
+            <class name="com.webtest.demo.Section_Management"/>
+            <class name="com.webtest.demo.Point_Management"/>
         </classes>
     </test>
 </suite>
