@@ -23,11 +23,18 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <test name="lpy">
-        <classes>
-            <class name="com.webtest.lpydemo.SmokeTest"/>
-        </classes>
+    <!-- <test name="lpy"> -->
+        <!-- <classes> -->
+            <!-- <class name="com.webtest.lpydemo.SmokeTest"/> -->
+        <!-- </classes> -->
 
+    <!-- </test> -->
+	
+	<test name="lh">
+        <classes>
+            <class name="com.webtest.demo.Section_Management"/>
+			<class name="com.webtest.demo.Point_Management"/>
+        </classes>
     </test>
 
 </suite>
