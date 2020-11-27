@@ -35,21 +35,16 @@
               <!-- <class name="com.webtest.xldemo.TestDemo"/> -->
         <!-- </classes> -->
     <!-- </test> -->
-	
-	
-<<<<<<< HEAD
 	<!--    <test name="lh"> -->
         <!--<classes>-->
             <!--<class name="com.webtest.demo.Section_Management"/>-->
             <!--<class name="com.webtest.demo.Point_Management"/>-->
         <!--</classes>-->
     <!--</test>-->
-	 <test name="wjy">
+   <test name="wjy">
         <classes>
             <class name="com.webtest.wjydemo.TestNewPost"/>
         </classes>
     </test>
 </suite>
-=======
-</suite>
->>>>>>> 5345f317d573dab481525d84ac3cc1ae0ad96629
+
