@@ -37,10 +37,15 @@
     <!-- </test> -->
 	
 	
-	    <test name="lh">
+	<!--    <test name="lh"> -->
+        <!--<classes>-->
+            <!--<class name="com.webtest.demo.Section_Management"/>-->
+            <!--<class name="com.webtest.demo.Point_Management"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+	 <test name="wjy">
         <classes>
-            <class name="com.webtest.demo.Section_Management"/>
-            <class name="com.webtest.demo.Point_Management"/>
+            <class name="com.webtest.wjydemo.TestNewPost"/>
         </classes>
     </test>
 </suite>
