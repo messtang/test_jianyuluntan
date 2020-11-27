@@ -43,7 +43,7 @@
     <!--</test>-->
    <test name="wjy">
         <classes>
-            <class name="com.webtest.wjydemo.TestNewPost"/>
+              <class name="com.webtest.wjydemo.TestNewPost"/>
         </classes>
     </test>
 </suite>
