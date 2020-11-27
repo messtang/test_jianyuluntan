@@ -40,7 +40,7 @@
 	<test name="lh">
         <classes>
             <class name="com.webtest.lhdemo.Section_Management"/>
-            <class name="com.webtest.lhdemo.Point_Management"/>
+            <!-- <class name="com.webtest.lhdemo.Point_Management"/> -->
         </classes>
     </test>
 </suite>
