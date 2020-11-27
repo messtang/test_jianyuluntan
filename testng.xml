@@ -5,15 +5,15 @@
 <!--         <listener class-name="com.webtest.core.WebTestListener"/> -->
 <!--     </listeners> -->
 <!--    设置和其他测试用例（刘俊江）-->
-<!--    <test name="test1">-->
-<!--        <classes>-->
-<!--            <class name="com.webtest.ljjdemo.Site_setting"/>-->
+    <test name="test1">
+        <classes>
+            <class name="com.webtest.ljjdemo.Site_setting"/>
 <!--            <class name="com.webtest.ljjdemo.Sign_in_setting"/>-->
 <!--            <class name="com.webtest.ljjdemo.Level_setting"/>-->
 <!--            <class name="com.webtest.ljjdemo.Growth_setting"/>-->
 <!--            <class name="com.webtest.ljjdemo.Friendship_link"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+        </classes>
+    </test>
 
 <!--    个人信息和签到测试用例（张帅帅） -->
    <!-- <test name="zss"> -->
@@ -37,10 +37,10 @@
     <!-- </test> -->
 	
 	
-	<test name="lh">
-        <classes>
-            <class name="com.webtest.lhdemo.Section_Management"/>
-            <!-- <class name="com.webtest.lhdemo.Point_Management"/> -->
-        </classes>
-    </test>
+<!--	<test name="lh">-->
+<!--        <classes>-->
+<!--            <class name="com.webtest.lhdemo.Section_Management"/>-->
+<!--            &lt;!&ndash; <class name="com.webtest.lhdemo.Point_Management"/> &ndash;&gt;-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>
