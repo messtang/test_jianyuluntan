@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class NSDataProvider {
+public class BNSDataProvider {
 
 	
 	@DataProvider(name="zl_shop")
