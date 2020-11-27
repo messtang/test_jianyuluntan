@@ -1,4 +1,4 @@
-package com.webtest.demo;
+package com.webtest.wjydemo;
 
 
 import static org.testng.Assert.assertEquals;
