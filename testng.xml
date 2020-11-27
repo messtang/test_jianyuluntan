@@ -51,11 +51,5 @@
     </test>
 </suite>
 =======
-	<test name="lh">
-       <classes>
-           <class name="com.webtest.lhdemo.Section_Management"/>
-           <class name="com.webtest.lhdemo.Point_Management"/>
-       </classes>
-   </test>
 </suite>
 >>>>>>> 5345f317d573dab481525d84ac3cc1ae0ad96629
