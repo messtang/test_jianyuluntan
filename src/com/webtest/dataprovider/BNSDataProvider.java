@@ -24,11 +24,11 @@ public class BNSDataProvider {
 
 	@DataProvider(name="excel")
 	public Object[][] getExcelDada() throws IOException{
-		return new ExcelDataProvider().getTestDataByExcel("data/newpostpagedata.xlsx","Sheet1");
+		return new ExcelDataProvider().getTestDataByExcel("newpostpagedata.xlsx","Sheet1");
 	}
 	@DataProvider(name="excel1")
 	public Object[][] getExcelDada1() throws IOException{
-		return new ExcelDataProvider().getTestDataByExcel("data/newpostpagedata.xlsx","Sheet2");
+		return new ExcelDataProvider().getTestDataByExcel("newpostpagedata.xlsx","Sheet2");
 	}
 	
 	@DataProvider(name="mysql")
