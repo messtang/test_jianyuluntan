@@ -17,7 +17,7 @@ import com.webtest.utils.ReadProperties;
  */
 public class InformationTest extends BaseTest {
 
-	@BeforeClass
+	@BeforeMethod
 	public void Login() throws IOException {
 		webtest.open("/index.php/denglu.html");
 		webtest.type("name=user", ReadProperties.getPropertyValue("username"));
