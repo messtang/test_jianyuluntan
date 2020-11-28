@@ -75,16 +75,36 @@ public class BaseTest {
 	 */
 
 
-	@BeforeMethod
+//	@BeforeMethod
+//	public void doBeforeClass() throws Exception {
+//		driverType=ReadProperties.getPropertyValue("driverType");
+//		driver = this.newWebDriver(driverType);
+//		driver.manage().window().maximize();
+//		Log.info(driverType);
+//		webtest = new WebDriverEngine(driver);
+//
+//	}
+
+	@BeforeClass
 	public void doBeforeClass() throws Exception {
+
 		driverType=ReadProperties.getPropertyValue("driverType");
 		driver = this.newWebDriver(driverType);
 		driver.manage().window().maximize();
 		Log.info(driverType);
 		webtest = new WebDriverEngine(driver);
-
+		
+		webtest.open("http://testjianyu:2020");
+		Thread.sleep(1000);
+		webtest.click("link=登录");
+		Thread.sleep(1000);
+		webtest.type("name=user", "jianyu2018");
+//		Thread.sleep(1000);
+		webtest.type("name=pwd", "jianyu2018");
+//		Thread.sleep(1000);
+		webtest.click("id=submit");
+		Thread.sleep(1000);
 	}
-
 
 	@AfterClass
 	public void doAfterMethod() {
@@ -94,13 +114,13 @@ public class BaseTest {
 		Log.info("Quitted Browser");
 	}
 
-	@AfterMethod
-	public void doAfterMethod_2() {
-		if(this.driver != null){
-			this.driver.quit();
-		}
-	}
-	
+//	@AfterMethod
+//	public void doAfterMethod_2() {
+//		if(this.driver != null){
+//			this.driver.quit();
+//		}
+//	}
+//	
 
 
 	
