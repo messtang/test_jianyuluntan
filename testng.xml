@@ -16,12 +16,12 @@
     <!-- </test> -->
 
 <!--    个人信息和签到测试用例（张帅帅） -->
-   <!-- <test name="zss"> -->
-       <!-- <classes> -->
-           <!-- <class name="com.webtest.zssdemo.InformationTest"></class> -->
-           <!-- <class name="com.webtest.zssdemo.SignInTest"></class> -->
-       <!-- </classes> -->
-   <!-- </test> -->
+   <test name="zss">
+       <classes>
+           <class name="com.webtest.zssdemo.InformationTest"></class>
+           <class name="com.webtest.zssdemo.SignInTest"></class>
+       </classes>
+   </test>
 
 <!--    <test name="lpy">-->
 <!--        <classes>-->
@@ -41,10 +41,10 @@
             <!--<class name="com.webtest.demo.Point_Management"/>-->
         <!--</classes>-->
     <!--</test>-->
-   <test name="wjy">
+<!--    <test name="wjy">
         <classes>
               <class name="com.webtest.wjydemo.TestNewPost"/>
         </classes>
-    </test>
+    </test> -->
 </suite>
 
