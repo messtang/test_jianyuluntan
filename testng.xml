@@ -15,7 +15,7 @@
         <!-- </classes> -->
     <!-- </test> -->
 
-<!--    个人信息和签到测试用例（张帅帅） -->
+<!--   个人信息和签到测试用例（张帅帅） -->
    <test name="zss">
        <classes>
            <class name="com.webtest.zssdemo.InformationTest"></class>
