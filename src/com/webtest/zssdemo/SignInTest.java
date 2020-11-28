@@ -5,7 +5,6 @@ import static org.testng.Assert.assertTrue;
 import java.io.IOException;
 
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.webtest.core.BaseTest;
@@ -20,7 +19,7 @@ import com.webtest.utils.ReadProperties;
 
 public class SignInTest extends BaseTest {
 
-	@BeforeMethod
+	@BeforeClass
 	public void Login() throws IOException {
 		webtest.open("/index.php/denglu.html");
 		webtest.type("name=user", ReadProperties.getPropertyValue("username"));
