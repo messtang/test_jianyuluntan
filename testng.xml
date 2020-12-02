@@ -5,23 +5,23 @@
 <!--         <listener class-name="com.webtest.core.WebTestListener"/> -->
 <!--     </listeners> -->
 <!--    设置和其他测试用例（刘俊江）-->
-    <!-- <test name="test1"> -->
-        <!-- <classes> -->
-            <!-- <class name="com.webtest.ljjdemo.Site_setting"/> -->
-           <!-- <class name="com.webtest.ljjdemo.Sign_in_setting"/> -->
+    <test name="test1">
+        <classes>
+            <class name="com.webtest.ljjdemo.Site_setting"/>
+           <class name="com.webtest.ljjdemo.Sign_in_setting"/>
            <!-- <class name="com.webtest.ljjdemo.Level_setting"/> -->
            <!-- <class name="com.webtest.ljjdemo.Growth_setting"/> -->
            <!-- <class name="com.webtest.ljjdemo.Friendship_link"/> -->
-        <!-- </classes> -->
-    <!-- </test> -->
+        </classes>
+    </test>
 
 <!--    个人信息和签到测试用例（张帅帅） -->
-   <test name="zss">
-       <classes>
-           <class name="com.webtest.zssdemo.InformationTest"></class>
-           <class name="com.webtest.zssdemo.SignInTest"></class>
-       </classes>
-   </test>
+   <!-- <test name="zss"> -->
+       <!-- <classes> -->
+           <!-- <class name="com.webtest.zssdemo.InformationTest"></class> -->
+           <!-- <class name="com.webtest.zssdemo.SignInTest"></class> -->
+       <!-- </classes> -->
+   <!-- </test> -->
 
 <!--    <test name="lpy">-->
 <!--        <classes>-->
