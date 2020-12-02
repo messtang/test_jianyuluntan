@@ -93,17 +93,17 @@ public class BaseTest {
 		driver.manage().window().maximize();
 		Log.info(driverType);
 		webtest = new WebDriverEngine(driver);
-		
-		webtest.open("http://testjianyu:2020");
-		Thread.sleep(1000);
-		webtest.click("link=登录");
-		Thread.sleep(1000);
-		webtest.type("name=user", "jianyu2018");
+//		
+//		webtest.open("http://testjianyu:2020");
 //		Thread.sleep(1000);
-		webtest.type("name=pwd", "jianyu2018");
+//		webtest.click("link=登录");
 //		Thread.sleep(1000);
-		webtest.click("id=submit");
-		Thread.sleep(1000);
+//		webtest.type("name=user", "jianyu2018");
+////		Thread.sleep(1000);
+//		webtest.type("name=pwd", "jianyu2018");
+////		Thread.sleep(1000);
+//		webtest.click("id=submit");
+//		Thread.sleep(1000);
 	}
 
 	@AfterClass
