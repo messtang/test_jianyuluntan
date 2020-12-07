@@ -1,10 +1,15 @@
 package com.webtest.zssdemo;
 
 import java.io.IOException;
-
 import org.testng.annotations.DataProvider;
-
 import com.webtest.dataprovider.ExcelDataProvider;
+
+/**
+ * 数据驱动类
+ * 
+ * @author 张帅帅
+ *
+ */
 
 public class ZSS_DataProvider {
 	@DataProvider(name = "pictureFile")
