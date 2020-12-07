@@ -7,8 +7,8 @@
 <!--    设置和其他测试用例（刘俊江）-->
     <test name="test1">
         <classes>
-            <class name="com.webtest.ljjdemo.Site_setting"/>
-           <!-- <class name="com.webtest.ljjdemo.Sign_in_setting"/> -->
+            <!-- <class name="com.webtest.ljjdemo.Site_setting"/> -->
+           <class name="com.webtest.ljjdemo.Sign_in_setting"/>
            <!-- <class name="com.webtest.ljjdemo.Level_setting"/> -->
            <!-- <class name="com.webtest.ljjdemo.Growth_setting"/> -->
            <!-- <class name="com.webtest.ljjdemo.Friendship_link"/> -->
