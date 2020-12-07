@@ -18,7 +18,7 @@ import com.webtest.core.ElementFinder;
 import com.webtest.core.WebDriverEngine;
 import com.webtest.dataprovider.NSDataProvider1;
 
-
+//autor:李培源
 
 public class SmokeTest extends BaseTest {
 	@Test(priority = 1)

@@ -5,6 +5,9 @@ import java.io.IOException;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+/**
+ * 王锦阳
+ */
 public class BNSDataProvider {
 
 	

@@ -5,6 +5,8 @@ import static org.testng.Assert.assertTrue;
 import java.io.IOException;
 
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import com.webtest.core.BaseTest;
@@ -39,19 +41,21 @@ public class SignInTest extends BaseTest {
 	@Test(priority = 1)
 	public void test_date_click() {
 		webtest.click("xpath=//button[@class='btn btn-info keqiandao']");
+		assertTrue(webtest.isTextPresent("已签到"));
 	}
 
 	// 点击上个月
 	@Test(priority = 2)
 	public void test_lastmonth_click() throws InterruptedException {
 		webtest.click("id=shanggeyue");
-		assertTrue(webtest.isTextPresent("31"));
+		assertTrue(webtest.isTextPresent("30"));
 	}
 
 	// 点击下个月
 	@Test(priority = 3)
 	public void test_nextmonth_click() {
 		webtest.click("id=xiageyue");
+		assertTrue(webtest.isTextPresent("31"));
 	}
 
 }
