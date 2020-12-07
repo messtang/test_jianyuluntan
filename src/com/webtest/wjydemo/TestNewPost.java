@@ -10,6 +10,9 @@ import org.testng.annotations.Test;
 import com.webtest.core.BaseTest;
 import com.webtest.dataprovider.BNSDataProvider;
 
+/**
+ * 王锦阳
+ */
 public class TestNewPost extends BaseTest{
 	@Test(priority=1,dataProvider="excel",dataProviderClass=BNSDataProvider.class)
 	public void newPostSuccess_test(String Sectionname,String Typename,String title,String content) throws Exception {
