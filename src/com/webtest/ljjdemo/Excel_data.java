@@ -5,6 +5,11 @@ import java.io.IOException;
 import com.webtest.dataprovider.ExcelDataProvider;
 import org.testng.annotations.DataProvider;
 
+/**
+ * author:liujunjiang
+ *
+ */
+
 public class Excel_data{
 
 	@DataProvider(name="forum_title")

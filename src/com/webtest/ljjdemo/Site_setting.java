@@ -1,7 +1,5 @@
 package com.webtest.ljjdemo;
 
-
-
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
@@ -14,6 +12,10 @@ import com.webtest.core.BaseTest;
 
 import java.io.IOException;
 
+/**
+ * author:liujunjiang
+ *
+ */
 
 //@Listeners(WebTestListener.class)
 public class Site_setting extends BaseTest{

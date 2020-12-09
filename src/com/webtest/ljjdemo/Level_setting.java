@@ -12,6 +12,11 @@ import com.webtest.core.BaseTest;
 
 import java.io.IOException;
 
+/**
+ * author:liujunjiang
+ *
+ */
+
 public class Level_setting extends BaseTest{
 	@BeforeMethod(description="管理员登录")
 	public void login_to() throws IOException {
