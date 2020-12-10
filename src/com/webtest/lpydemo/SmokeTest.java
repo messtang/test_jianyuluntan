@@ -19,6 +19,7 @@ import com.webtest.core.WebDriverEngine;
 import com.webtest.dataprovider.NSDataProvider1;
 
 //autor:李培源
+//测试模块：后台登录，后台发帖管理，后台用户管理
 
 public class SmokeTest extends BaseTest {
 	@Test(priority = 1)
