@@ -1,4 +1,4 @@
-package com.webtest.xxqdemo;
+package com.webtest.testcases.xxqdemo;
 
 import static org.testng.Assert.assertTrue;
 

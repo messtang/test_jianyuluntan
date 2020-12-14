@@ -1,23 +1,22 @@
-package com.webtest.ljjdemo;
+package com.webtest.testcases.ljjdemo;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
-
+import com.webtest.core.BaseTest;
 import com.webtest.utils.ReadProperties;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.webtest.core.BaseTest;
-
 import java.io.IOException;
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 /**
  * author:liujunjiang
  *
  */
 
-public class Growth_setting extends BaseTest{
+public class Level_setting extends BaseTest{
 	@BeforeMethod(description="管理员登录")
 	public void login_to() throws IOException {
 		webtest.open("/index.php/denglu.html");
@@ -26,7 +25,7 @@ public class Growth_setting extends BaseTest{
 		webtest.click("id=submit");
 		assertTrue(webtest.isTextPresent("剑鱼论坛后台"));
 		webtest.runJs("document.getElementById('jianyuluntansidebar').scrollTo(0,document.getElementById('jianyuluntansidebar').scrollHeight)");
-		webtest.click("xpath=//a[text()='成长设置']");
+		webtest.click("xpath=//a[text()='等级设置']");
 	}
 	
 	@AfterMethod
@@ -35,18 +34,20 @@ public class Growth_setting extends BaseTest{
 		assertEquals(webtest.isDisplayed("class=navbar-brand"), true);
 	}
 	
-	@Test(description="增加成长值",dataProvider="growth_value",dataProviderClass= Excel_data.class)
-	public void test_growth_value(String value) {
-		webtest.typeAndClear("class=czzhi", value);
-		webtest.click("xpath=//a[text()='成长设置']");
-		assertEquals(webtest.getValue("class=czzhi"), value);
+	@Test(description="等级描述",dataProvider="level_description",dataProviderClass= Excel_data.class)
+	public void test_level_description(String level) {
+		webtest.typeAndClear("class=djmiaoshu", level);
+		webtest.click("xpath=//a[text()='等级设置']");
+		assertEquals(webtest.getValue("class=djmiaoshu"), level);
+
+	}
+
+	@Test(description="所需成长值",dataProvider="required_growth_value",dataProviderClass= Excel_data.class)
+	public void test_required_growth_value(String value) {
+		webtest.typeAndClear("class=djzhi", value);
+		webtest.click("xpath=//a[text()='等级设置']");
+		assertEquals(webtest.getValue("class=djzhi"), value);
 	}
 	
-	@Test(description="增加成长值",dataProvider="integral",dataProviderClass=Excel_data.class)
-	public void test_integral(String value) {
-		webtest.typeAndClear("class=jfzhi", value); 
-		webtest.click("xpath=//a[text()='成长设置']");
-		assertEquals(webtest.getValue("class=jfzhi"), value);
-	}
 	
 }

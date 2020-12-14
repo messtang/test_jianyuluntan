@@ -1,4 +1,4 @@
-package com.webtest.lpydemo;
+package com.webtest.testcases.lpydemo;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;

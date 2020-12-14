@@ -1,16 +1,15 @@
-package com.webtest.ljjdemo;
+package com.webtest.testcases.ljjdemo;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
-
+import com.webtest.core.BaseTest;
 import com.webtest.utils.ReadProperties;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.webtest.core.BaseTest;
-
 import java.io.IOException;
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 /**
  * author:liujunjiang
@@ -45,10 +44,10 @@ public class Site_setting extends BaseTest{
 		webtest.click("id=formsubmit");
 		webtest.click("xpath=//a[text()='网站设置']");
 		assertEquals(webtest.getValue("name=title"), title);
-		
+
 	}
-	
-	@Test(description="论坛副名称",dataProvider="forum_subtitle",dataProviderClass=Excel_data.class)
+
+	@Test(description="论坛副名称",dataProvider="forum_subtitle",dataProviderClass= Excel_data.class)
 	public void test_forum_subtitle_enter(String subtitle) {
 		webtest.typeAndClear("name=subtitle", subtitle);
 		webtest.runJs("window.scrollTo(0,document.body.scrollHeight)");

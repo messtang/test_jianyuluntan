@@ -1,4 +1,4 @@
-package com.webtest.lhdemo;
+package com.webtest.testcases.lhdemo;
 
 import com.webtest.core.BaseTest;
 import com.webtest.utils.ReadProperties;
@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 import static org.testng.Assert.assertTrue;
+
 /**
  * 版块:积分管理
  * @author lihang

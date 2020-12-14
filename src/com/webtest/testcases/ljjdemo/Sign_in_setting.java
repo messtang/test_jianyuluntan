@@ -1,16 +1,15 @@
-package com.webtest.ljjdemo;
+package com.webtest.testcases.ljjdemo;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
-
+import com.webtest.core.BaseTest;
 import com.webtest.utils.ReadProperties;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.webtest.core.BaseTest;
-
 import java.io.IOException;
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 /**
  * author:liujunjiang

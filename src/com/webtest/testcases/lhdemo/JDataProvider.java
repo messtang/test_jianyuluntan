@@ -1,9 +1,10 @@
-package com.webtest.lhdemo;
+package com.webtest.testcases.lhdemo;
 
 import com.webtest.dataprovider.ExcelDataProvider;
 import org.testng.annotations.DataProvider;
 
 import java.io.IOException;
+
 /**
  * 数据提供者类
  * @author lihang

@@ -1,9 +1,9 @@
-package com.webtest.ljjdemo;
-
-import java.io.IOException;
+package com.webtest.testcases.ljjdemo;
 
 import com.webtest.dataprovider.ExcelDataProvider;
 import org.testng.annotations.DataProvider;
+
+import java.io.IOException;
 
 /**
  * author:liujunjiang
