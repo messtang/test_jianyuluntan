@@ -6,7 +6,8 @@ import org.testng.annotations.DataProvider;
 import java.io.IOException;
 
 /*
-数据提供者DataProvider
+作者:李杭
+数据提供者类
  */
 public class JDataProvider {
 

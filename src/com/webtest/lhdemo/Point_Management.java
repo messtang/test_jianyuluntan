@@ -11,7 +11,8 @@ import java.io.IOException;
 import static org.testng.Assert.assertTrue;
 
 /*
-积分管理
+作者:李杭
+版块:积分管理
 运行结果:14个test,通过9个,不通过5个
  */
 public class Point_Management extends BaseTest {
