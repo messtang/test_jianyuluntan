@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import com.webtest.core.BaseTest;
 import com.webtest.utils.ReadProperties;
-import com.webtest.zssdemo.ZSS_DataProvider;
+import com.webtest.testcases.zssdemo.ZSS_DataProvider;
 
 /**
  * 我的足迹
