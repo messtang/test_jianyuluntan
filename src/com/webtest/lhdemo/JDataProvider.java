@@ -4,10 +4,10 @@ import com.webtest.dataprovider.ExcelDataProvider;
 import org.testng.annotations.DataProvider;
 
 import java.io.IOException;
-
-/*
-作者:李杭
-数据提供者类
+/**
+ * 数据提供者类
+ * @author lihang
+ *
  */
 public class JDataProvider {
 

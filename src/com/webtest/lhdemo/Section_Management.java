@@ -9,11 +9,10 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 
 import static org.testng.Assert.assertTrue;
-
-/*
-作者:李杭
-版块:版块管理
-运行结果:40个test,通过31个,不通过9个
+/**
+ * 版块:版块管理
+ * @author lihang
+ *运行结果:40个test,通过31个,不通过9个
  */
 public class Section_Management extends BaseTest {
 
