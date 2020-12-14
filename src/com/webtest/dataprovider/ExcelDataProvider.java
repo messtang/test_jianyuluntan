@@ -14,13 +14,8 @@ import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-/*
- * Excel����������
- */
 
 public class ExcelDataProvider {
-
-
 
 	public Object[][] getTestDataByExcel(String fileName, String sheetName)
 			throws IOException {
