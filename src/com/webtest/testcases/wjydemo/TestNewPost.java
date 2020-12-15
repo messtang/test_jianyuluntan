@@ -11,7 +11,7 @@ import com.webtest.core.BaseTest;
 import com.webtest.dataprovider.BNSDataProvider;
 
 /**
- * 王锦阳
+ * 王锦阳（前台发帖区模块）
  */
 public class TestNewPost extends BaseTest{
 	@Test(priority=1,dataProvider="excel",dataProviderClass=BNSDataProvider.class)
